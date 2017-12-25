@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cat App</title>
+
+    <!-- Bootstrap -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="static/css/main.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div classs="navbar row">
+      <h1 class="title col-sm-3">UnBounded</h1>
+    </div>
+
+    <div class="row start-container">
+      <div class="col-sm-3 sign-up-container">
+        <!-- index.html -->
+        {% block content%}
+        {% endblock %}
+
+        <button class="button" id="sign-up-btn">Sign Up</button>
+        <button class="button" id="learn-more-btn">Learn More</button>
+      </div>
+
+      <div>
+        <img class="sign-up-img" src="http://i.imgur.com/MQHYB.jpg" alt="cute kitty">
+      </div>
+    </div>
+
+  </body>
+
+</html>

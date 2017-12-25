@@ -1,0 +1,59 @@
+html, body, h1 {
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+  color: LightGray;
+  text-align: right;
+  margin: 40px 0 0 140px;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: 0.2rem;
+}
+
+.start-container {
+  margin-top: 60px;
+}
+
+.sign-up-container {
+  text-align: right;
+  margin: 250px 140px 0 140px;
+}
+
+.description {
+  color: Lightblue;
+  margin-bottom: 30px;
+}
+
+.button {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: LightGray;
+
+  padding: 10px 20px;
+}
+#sign-up-btn {
+  color: White;
+  background-color: Turquoise;
+  margin-right: 5px;
+}
+#learn-more-btn {
+  color: Turquoise;
+  background-color: White;
+}
+
+.sign-up-img {
+  border-radius: 20px;
+}
+
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
