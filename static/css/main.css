@@ -6,30 +6,35 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+  color: Lightblue;
+  margin-bottom: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .title {
   color: LightGray;
   text-align: right;
-  margin: 40px 0 0 140px;
+  margin-top: 40px;
   font-weight: bold;
   font-size: 32px;
   letter-spacing: 0.2rem;
 }
 
-.start-container {
+/* HOMEPAGE */
+.homepage-section {
   margin-top: 60px;
 }
 
 .sign-up-container {
-  text-align: right;
-  margin: 250px 140px 0 140px;
-}
-
-.description {
-  color: Lightblue;
-  margin-bottom: 30px;
+  margin-top: 250px;
 }
 
 .button {
+  cursor: pointer;
   border-style: solid;
   border-width: 1px;
   border-radius: 4px;
@@ -38,17 +43,37 @@ body {
   padding: 10px 20px;
 }
 #sign-up-btn {
-  color: White;
   background-color: Turquoise;
-  margin-right: 5px;
+}
+#sign-up-btn a{
+  color: White;
 }
 #learn-more-btn {
-  color: Turquoise;
   background-color: White;
+  margin-left: 5px;
+}
+#learn-more-btn a {
+  color: Turquoise;
+}
+#sign-up-btn:hover a, #learn-more-btn:hover a  {
+  color: Gray;
 }
 
 .sign-up-img {
   border-radius: 20px;
+}
+
+/* ABOUT SECTION */
+.about-section {
+
+}
+
+/* FORMATTING CLASSES */
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
 }
 
 .pull-right {

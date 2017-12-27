@@ -12,23 +12,12 @@
 
   <body>
     <div classs="navbar row">
-      <h1 class="title col-sm-3">UnBounded</h1>
+      <h1 class="title col-sm-3 offset-sm-1"><a>UnBounded</a></h1>
     </div>
 
-    <div class="row start-container">
-      <div class="col-sm-3 sign-up-container">
-        <!-- index.html -->
-        {% block content%}
-        {% endblock %}
-
-        <button class="button" id="sign-up-btn">Sign Up</button>
-        <button class="button" id="learn-more-btn">Learn More</button>
-      </div>
-
-      <div>
-        <img class="sign-up-img" src="http://i.imgur.com/MQHYB.jpg" alt="cute kitty">
-      </div>
-    </div>
+    <!-- index.html -->
+    {% block content%}
+    {% endblock %}
 
   </body>
 
