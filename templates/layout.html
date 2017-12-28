@@ -12,12 +12,15 @@
 
   <body>
     <div classs="navbar row">
-      <h1 class="title col-sm-3 offset-sm-1"><a>UnBounded</a></h1>
+      <h1 class="title col-sm-3 offset-sm-1" ng-show="true"><a>UnBounded</a></h1>
     </div>
 
-    <!-- index.html -->
+    <!-- homepage.html -->
     {% block content%}
     {% endblock %}
+
+    <!-- AngularJS -->
+    <script type="text/javascript" src="/static/js/angular.min.js"></script>
 
   </body>
 

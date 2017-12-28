@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  font-size: 3vw;
   color: Lightblue;
   margin-bottom: 30px;
 }
@@ -42,6 +43,7 @@ a:hover {
   background-color: Turquoise;
 }
 #sign-up-btn a{
+  font-size: 20px;
   color: White;
 }
 #learn-more-btn {
@@ -49,6 +51,7 @@ a:hover {
   margin-left: 5px;
 }
 #learn-more-btn a {
+  font-size: 20px;
   color: Turquoise;
 }
 #sign-up-btn:hover a, #learn-more-btn:hover a  {
@@ -56,6 +59,10 @@ a:hover {
 }
 
 .sign-up-img {
+  width: 40vw;
+  height:auto;
+  position: absolute;
+  bottom: 0;
   border-radius: 20px;
 }
 

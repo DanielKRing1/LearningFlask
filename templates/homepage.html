@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+<!-- child block 'content' used in layout -->
+{% block content %}
+<div class="row homepage-section">
+  <!-- Sign up/ Learn more section -->
+  <div class="offset-sm-1 col-sm-3 align-right sign-up-container">
+    <h1>Get to where U want to B</h1>
+    <button class="button" id="sign-up-btn"><a href="#">Sign up</a></button>
+    <button class="button" id="learn-more-btn"><a href="about">Learn More</a></button>
+  </div>
+
+  <!-- Site image -->
+  <div class="offset-sm-1 col-sm-7">
+    <img class="sign-up-img" src="http://i.imgur.com/MQHYB.jpg" alt="cute kitty">
+  </div>
+</div>
+{% endblock %}
